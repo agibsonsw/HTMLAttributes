@@ -1,0 +1,16 @@
+These are fairly straight-forward HTML attribute completions for 
+Sublime Text 2, including many HTML5 attributes.
+
+It includes completion of many standard values. For example, typing 
+the letter 'c' in the type="" attribute will complete "checkbox". 
+If you Backspace and enter the letter 't' it will be replaced 
+with "text". (I haven't included "text/css" or "text/javascript" 
+for the type attribute, as these are normally supplied within a 
+default snippet or completion for script or link.)
+
+There are two versions for some boolean attributes. For example:
+CHECKED, or 
+checked="checked"
+
+Depending on your settings you may need to press Ctrl-Space to 
+display the completions within an opening HTML-tag.

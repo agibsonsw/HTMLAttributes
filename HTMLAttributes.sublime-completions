@@ -5,7 +5,7 @@
     [
         { "trigger": "abbr", "contents": "abbr=\"$1\"$0" },
         { "trigger": "accept", "contents": "accept=\"${1:MIME_type}\"$0" },
-        { "trigger": "accept-charset\tform", "contents": "accept-charset=\"$1\"$0" },
+        { "trigger": "accept-charset\tform", "contents": "accept-charset=\"${1:utf-8}\"$0" },
         { "trigger": "accesskey", "contents": "accesskey=\"$1\"$0" },
         { "trigger": "action\tform", "contents": "action=\"$1\"$0" },
         { "trigger": "align", "contents": "align=\"$1${1/(l$)|(ch$)|(c$)|(r$)|(j$)|.*/?1:eft:?2:ar:?3:enter:?4:ight:?5:ustify/i}\"$0" },
@@ -85,7 +85,7 @@
         { "trigger": "marginwidth\ti/frame", "contents": "marginwidth=\"$1\"$0" },
         { "trigger": "maxlength\tinput", "contents": "maxlength=\"$1\"$0" },
         { "trigger": "media", "contents": "media=\"$1\"$0" },
-        { "trigger": "method\tform", "contents": "method=\"${1:get/post}1${1/(g$)|(p$)|.*/?1:et:?2:ost/i}\"$0" },
+        { "trigger": "method\tform", "contents": "method=\"${1:get/post}${1/(g$)|(p$)|.*/?1:et:?2:ost/i}\"$0" },
         { "trigger": "max\tHTML5", "contents": "max=\"$1\"$0" },
         { "trigger": "min\tHTML5", "contents": "min=\"$1\"$0" },
         { "trigger": "MULTIPLE", "contents": "MULTIPLE" },

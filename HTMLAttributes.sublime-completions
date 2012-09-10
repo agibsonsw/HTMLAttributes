@@ -1,5 +1,5 @@
 {
-    "scope": "text.html.basic meta.tag",
+    "scope": "text.html meta.tag",
 
     "completions":
     [

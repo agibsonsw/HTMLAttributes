@@ -148,7 +148,7 @@
         { "trigger": "standby\tobject", "contents": "standby=\"${1:string}\"$0" },
         { "trigger": "step\tHTML5", "contents": "step=\"$1\"$0" },
         { "trigger": "start\tol (depr)", "contents": "start=\"$1\"$0" },
-        { "trigger": "type", "contents": "type=\"${1:text}${1/(b$)|(co$)|(c$)|(dat$)|(da$)|(d$)|(e$)|(f$)|(h$)|(i$)|(m$)|(n$)|(p$)|(ra$)|(r$)|(su$)|(se$)|(s$)|(te$)|(ti$)|(t$)|(u$)|(w$)|.*/?1:utton:?2:lor:?3:heckbox:?4:etime-local:?5:tetime:?6:ate:?7:mail:?8:ile:?9:idden:?10:mage:?11:onth:?12:umber:?13:assword:?14:nge:?15:adio:?16:bmit:?17:arch:?18:elect:?19:xtarea:?20:me:?21:ext:?22:rl:?23:eek/i}\"$0" },
+        { "trigger": "type", "contents": "type=\"${1/(cs|j)$|.*/?1:text\\//i}${1:text}${1/(b$)|(co$)|(cs$)|(c$)|(dat$)|(da$)|(d$)|(e$)|(f$)|(h$)|(i$)|(j$)|(m$)|(n$)|(p$)|(ra$)|(r$)|(su$)|(se$)|(s$)|(te$)|(ti$)|(t$)|(u$)|(w$)|.*/?1:utton:?2:lor:?3:s:?4:heckbox:?5:etime-local:?6:tetime:?7:ate:?8:mail:?9:ile:?10:idden:?11:mage:?12:avascript:?13:onth:?14:umber:?15:assword:?16:nge:?17:adio:?18:bmit:?19:arch:?20:elect:?21:xtarea:?22:me:?23:ext:?24:rl:?25:eek/i}\"$0" },
         { "trigger": "tabindex", "contents": "tabindex=\"$1\"$0" },
         { "trigger": "target", "contents": "target=\"$1\"$0" },
         { "trigger": "title", "contents": "title=\"$1\"$0" },

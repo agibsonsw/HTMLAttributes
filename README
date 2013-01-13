@@ -4,9 +4,8 @@ Sublime Text 2, including many HTML5 attributes.
 It includes completion of many standard values. For example, typing 
 the letter 'c' in the type="" attribute will complete "checkbox". 
 If you Backspace and enter the letter 't' it will be replaced 
-with "text". (I haven't included "text/css" or "text/javascript" 
-for the type attribute, as these are normally supplied within a 
-default snippet or completion for script or link.)
+with "text". "text/css" and "text/javascript" for the type- 
+attribute are inserted by typing 'j' or 'cs' within the quotes.
 
 There are two versions for some boolean attributes. For example:
 CHECKED, or 

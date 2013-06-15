@@ -13,3 +13,6 @@ checked="checked"
 
 Depending on your settings you may need to press Ctrl-Space to 
 display the completions within an opening HTML-tag.
+
+Note: The Emmet (formerly ZenCoding) package uses a different 
+approach, so it may not sit comfortably with HTMLAttributes.

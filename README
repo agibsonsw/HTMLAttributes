@@ -12,7 +12,9 @@ CHECKED, or
 checked="checked"
 
 Depending on your settings you may need to press Ctrl-Space to 
-display the completions within an opening HTML-tag.
+display the completions within an opening HTML-tag. I just type 
+1 or 2 letters and press the Tab key! This uses the fuzzy-search 
+feature of ST, and ST will also 'learn' about your preferences.
 
 Note: The Emmet (formerly ZenCoding) package uses a different 
 approach, so it may not sit comfortably with HTMLAttributes.
